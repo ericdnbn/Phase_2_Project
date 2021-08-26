@@ -1,4 +1,4 @@
-![Header Image](https://burst.shopify.com/photos/colorful-heritage-homes?q=house)
+![Header Image](https://github.com/ericdnbn/Phase_2_Project/blob/main/Images/readme%20header%20image.jpg)
 Source: [Burst](https://burst.shopify.com/photos/colorful-heritage-homes?q=house)
 
 # Predicting House Price in King County, Washington
