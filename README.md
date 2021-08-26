@@ -19,17 +19,17 @@ This project utilized a dataset from King County detailing houses sold in 2014 a
 The entire raw dataset contains 21,597 rows and 21 columns. Each row represents an house sale while each column specifies a feature such a number of floors in that house or year built. 
 
 ###### Data Preparation
-We cleaned the dataset by dropping missing values, unoperational values such as questions, and outliers. We also created additional columns that are needed for analysis. This included interaction terms where we deemed that certain variables are better intepreted with another factor. For example, we created interaction term for building quality(as measured by grade) with square footage. Additionally, we logged certain variables in order to normalize them because they are not normally distributed. At the end of the cleaning process, the data contains 150,127 observations for analysis. 
+We cleaned the dataset by dropping missing values, unoperational values such as questions, and outliers. We also created additional columns that are needed for analysis. This included interaction terms where we deemed that certain variables are better intepreted with another factor. For example, we created interaction term for building quality(as measured by grade) with square footage. Additionally, we logged certain variables in order to normalize them because they are not normally distributed. At the end of the cleaning process, the data contains approximately 150,000 observations for analysis. 
 
 
 ## Data Analysis 
 
-This project used multiple regression analysis to generate models that predict home sale price. We split the data into training and testing set so that we can train our data and test it on completely unseen data in order to understand how well our model does in predicting our response variable. summary statistics of various variables in the dataset. Anchoring our analysis on potential movie genres that Microsoft should consider, we examined how Microsoft can maximize ROI with respect to other factors. In particular, we focused on the following variables: release date, production budget, and worldwide gross. 
+This project used multiple regression analysis to generate models that predict home sale price. We split the data into training and testing set so that we can train our data and test it on completely unseen data in order to understand how well our model does in predicting our response variable. In particular, 20% of the dataset was allocated for training. We iterated our model multiple times by changing the features to assess adjusted R square value and the root-mean-square error (RMSE), two values we used to asses our model's accuracy. With each model we iterated, we aimed to achieve a high adjusted R square while minimizing the RMSE. We stopped the iteration when we see that our adjusted R square value and RMSE were not changing drastically in the last few tests. 
 
 
 ## Results 
 
-Our cleaned and filtered dataset has a mean home price of $540,506. Furthermore, our best model contains 26 variables using approximately 11,000 observations. It explains about 78% of the variation we see in home price, our response variable. Additionally, our model saw an average error of $180,950 on our training data and an average error of $183,082 on our unseen data. 
+Our cleaned and filtered dataset has a mean home price of $540,168. Furthermore, our best model contains 23 variables using approximately 15,000 observations. It explains about 78% of the variation we see in home price, our response variable. Additionally, our model saw an average error of $180,475 on our training data and an average error of $185,615 on our unseen data. 
 
 The following three operable factors are statistically significant. We defined operable to mean features home flippers can operate on or fix. 
 
@@ -53,19 +53,19 @@ We highlighted what happens when we increase a feature by one unit or one percen
 ###### Change in house square footage and its relationship to change in home price 
 
 ![Header Image](link)
-Sale price increases by ~0.64% for every  1% increase in the house's square feet
+Sale price increases by ~0.75% for every 1% increase in the house's square feet
 
 
 ###### Change in house square footage and its relationship to change in home price for different quality houses
 
 ![Header Image](link)
-For a house with an average grade and at an average price ($540,506) if you increase the square footage of the entire living space by 1%, it will increase the sale price by  ~$5,400. 
+For a house with an average grade and at an average price ($540,168) if you increase the square footage of the entire living space by 1%, it will increase the sale price by  ~$5,700. 
 
 
 ###### Change in number of bathroom and its relationship to change in home price
 
 ![Header Image](link)
-For a house and an average price, one additional bathroom will increase sale price by  ~$31,000. 
+For a house and an average price, one additional bathroom will increase sale price by  ~$25,000. 
 
 
 
@@ -76,11 +76,12 @@ Results from this project’s analysis suggest the following three recommendatio
 1. Start with location. We found that home price does differ whether or not a house is facing a waterfront. Additionally, such difference is also statistically significant between houses on the northern and southern part of the county. Even at the neighborhood level, the square footage of interior housing living space for the nearest 15 neighbors has an impact on house price. These three factors are helpful to consider as home flippers start the decision process. 
 
 2. After a location is selected, we recommend that home flippers consider these three features that are operable as an effort to increase home price. 
-    A. We found that increasing the house size is associated with an increase in house price. For example, a house that is at $540,506, if you increase the square footage of the entire living space by 1%, it will increase sale price by  ~$3,500. 
+
+    A. We found that increasing the house size is associated with an increase in house price. For example, a house that is at $540,506, if you increase the square footage of the entire living space by 1%, it will increase sale price by  ~$4,000. 
     
     B. Additionally, we recognize that many variables are interconnected and that many features need to be analyzed in the context with other factors. In particular, we believe that house size's relationship with home price also depends on the house's quality as measured by county's grading system. That a higher grade is associated with higher home price. Therefore, we recommend that home flippers take into consideration building quality. Details of the grading scale can be found here on [this website](https://info.kingcounty.gov/assessor/esales/Glossary.aspx?type=r). 
     
-    C. Lastly, we recognize the various possibilities involved in flipping a house for profit and recommend adding bathrooms to increase sale price. For a house with an average price, one additional bathroom will increase sale price by  ~$31,000. 
+    C. Lastly, we recognize the various possibilities involved in flipping a house for profit and recommend adding bathrooms to increase sale price. For a house with an average price, one additional bathroom will increase sale price by  ~$25,000. 
 
 
 ## Next Steps
