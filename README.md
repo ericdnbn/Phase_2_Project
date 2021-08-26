@@ -1,4 +1,4 @@
-![Header Image](https://github.com/mross715/MicrosoftProject/blob/main/images/readme%20image.png)
+![Header Image](Link)
 Source: freepik
 
 # Predicting House Price in King County, Washington
