@@ -43,27 +43,27 @@ The following three non-operable factors are statistically significant. We defin
 3. House living space for the nearest 15 neighbors
 
 
-###### Change in feature and its relationship to change in home price 
+### Change in feature and its relationship to change in home price 
 
-![Header Image](link)
+![Header Image](https://github.com/ericdnbn/Phase_2_Project/blob/main/Images/Image%201-magnitude%20of%20change.png)
 We highlighted what happens when we increase a feature by one unit or one percentage point. For example, we see that among the three factors, one additional increase in bathroom generated the greatest change in home sale price compared to the other two factors. 
 
 
-###### Change in house square footage and its relationship to change in home price 
+### Change in house square footage and its relationship to change in home price 
 
-![Header Image](link)
+![Header Image](https://github.com/ericdnbn/Phase_2_Project/blob/main/Images/image%202%20-%20square%20footage.png)
 Sale price increases by ~0.75% for every 1% increase in the house's square footage
 
 
-###### Change in house square footage and its relationship to change in home price for different quality houses
+### Change in house square footage and its relationship to change in home price for different quality houses
 
-![Header Image](link)
+![Header Image](https://github.com/ericdnbn/Phase_2_Project/blob/main/Images/image%203%20-square%20footage%20w%20grade.png)
 For a house with an average grade and at an average price ($540,168) if you increase the square footage of the entire living space by 1%, it will increase the sale price by  ~$5,700. 
 
 
-###### Change in number of bathroom and its relationship to change in home price
+### Change in number of bathroom and its relationship to change in home price
 
-![Header Image](link)
+![Header Image](https://github.com/ericdnbn/Phase_2_Project/blob/main/Images/Image%204-bathroom.png)
 For a house at the average price, one additional bathroom will increase the home sale price by  ~$25,000. 
 
 
@@ -94,7 +94,7 @@ Results from this project’s analysis suggested the following three recommendat
 
 ## Additional Information
 
-See the full analysis in the [Jupyter Notebook](https://www.google.com/) or review [this presentation](https://www.google.com/).
+See the full analysis in the [Jupyter Notebook](https://github.com/ericdnbn/Phase_2_Project/blob/main/Final%20Notebook.ipynb) or review [this presentation](https://www.google.com/).
 
 For additional info, contact
 
