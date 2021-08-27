@@ -45,7 +45,7 @@ The following three non-operable factors are statistically significant. We defin
 
 ###### Change in feature and its relationship to change in home price 
 
-![Header Image](link)
+![Header Image](https://github.com/ericdnbn/Phase_2_Project/blob/main/Images/Image%201-magnitude%20of%20change.png)
 We highlighted what happens when we increase a feature by one unit or one percentage point. For example, we see that among the three factors, one additional increase in bathroom generated the greatest change in home sale price compared to the other two factors. 
 
 
