@@ -94,7 +94,7 @@ Results from this project’s analysis suggested the following three recommendat
 
 ## Additional Information
 
-See the full analysis in the [Jupyter Notebook](https://github.com/ericdnbn/Phase_2_Project/blob/main/Final%20Notebook.ipynb) or review [this presentation](https://www.google.com/).
+See the full analysis in the [Jupyter Notebook](https://github.com/ericdnbn/Phase_2_Project/blob/main/Final%20Notebook.ipynb) or review [this presentation](https://github.com/ericdnbn/Phase_2_Project/blob/main/Non-Technical%20Presentation.pdf).
 
 For additional info, contact
 
