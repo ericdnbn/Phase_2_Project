@@ -23,7 +23,7 @@ We cleaned the dataset by dropping missing values, unoperational values such as 
 
 ## Data Analysis 
 
-This project used multiple regression analysis to generate models that predict home sale price. We split the data into training and testing sets so that we can train our data and test it on completely unseen data in order to understand how well our models are at predicting our response variable. In particular, 20% of the dataset was allocated for training. We iterated our model multiple times by changing the features to assess adjusted R square value and the root-mean-square error (RMSE), two values we used to assess our model's accuracy. With each model we iterated, we aimed to achieve a high adjusted R square while minimizing the RMSE. We stopped the iteration when we saw that our adjusted R square value and RMSE were not changing drastically in the last few tests. 
+We employed multiple linear regression analysis to generate models that predict home sale price. We split the data into training and testing sets so that we can train our data and test it on completely unseen data in order to understand how well our models are at predicting our response variable. In particular, 20% of the dataset was allocated for training. We iterated our model multiple times by changing the features to assess adjusted R square value and the root-mean-square error (RMSE), two values we used to assess our model's accuracy. With each model we iterated, we aimed to achieve a high adjusted R square while minimizing the RMSE. We stopped the iteration when we saw that our adjusted R square value and RMSE were not changing drastically in the last few tests. 
 
 
 ## Results 
